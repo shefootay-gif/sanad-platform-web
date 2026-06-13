@@ -70,16 +70,29 @@ export default function Home() {
 
   return (
     <main className="flex-grow container mx-auto px-4 py-12">
-      <div className="text-center mb-16">
-        <h1 className="text-5xl font-extrabold mb-6 tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-          سند - منصة معالجة الوثائق
-        </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-          كل ما تحتاجه للتعامل مع ملفات PDF في مكان واحد، مجاناً وبأعلى مستويات الأمان.
-        </p>
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-900 via-indigo-800 to-blue-900 mb-20 shadow-2xl">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+        <div className="relative px-6 py-24 sm:px-12 sm:py-32 lg:px-16 flex flex-col items-center text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-blue-100 mb-8 backdrop-blur-sm">
+            <span className="flex h-2 w-2 rounded-full bg-green-400 animate-pulse"></span>
+            <span className="text-sm font-medium">أفضل منصة عربية لمعالجة الوثائق</span>
+          </div>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 tracking-tight text-white leading-tight">
+            سند <br className="md:hidden" />
+            <span className="bg-gradient-to-r from-blue-400 to-teal-300 bg-clip-text text-transparent">لمعالجة الوثائق</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-10">
+            كل ما تحتاجه للتعامل مع ملفات PDF في مكان واحد. مجاناً، آمن، وبأعلى معايير الدقة والسرعة.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="#tools" className="px-8 py-4 bg-white text-blue-900 font-bold rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg">
+              استكشف الأدوات
+            </Link>
+          </div>
+        </div>
       </div>
 
-      <div className="space-y-16">
+      <div id="tools" className="space-y-16 scroll-mt-24">
         {categories.map((category) => (
           <section key={category.id}>
             <h2 className="text-3xl font-bold mb-8 flex items-center">
