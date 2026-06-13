@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { Link } from '@/i18n/routing';
-import { ShieldCheck, Heart, Github, Twitter, Mail } from 'lucide-react';
+import { ShieldCheck, Heart, Mail } from 'lucide-react';
+
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,19 +20,13 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-bold text-gray-900 dark:text-white">سند</span>
-                <span className="text-xl" title="مصر">🇪🇬</span>
+                <img src="https://flagcdn.com/eg.svg" alt="مصر" title="مصر" className="w-5 h-3 ml-1 rounded-sm shadow-sm" />
               </div>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-sm leading-relaxed">
               منصة سند هي خيارك الأول والأكثر أماناً للتعامل مع كافة ملفاتك بصيغة PDF. أدوات احترافية، دقة عالية، وسرعة فائقة في الإنجاز.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-blue-100 hover:text-blue-600 dark:hover:bg-blue-900/30 dark:hover:text-blue-400 transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-blue-100 hover:text-blue-600 dark:hover:bg-blue-900/30 dark:hover:text-blue-400 transition-colors">
-                <Github className="w-5 h-5" />
-              </a>
               <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-blue-100 hover:text-blue-600 dark:hover:bg-blue-900/30 dark:hover:text-blue-400 transition-colors">
                 <Mail className="w-5 h-5" />
               </a>

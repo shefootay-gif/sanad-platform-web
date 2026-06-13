@@ -22,7 +22,7 @@ export default function Header() {
                 <span className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
                   سند
                 </span>
-                <span className="text-2xl" title="مصر">🇪🇬</span>
+                <img src="https://flagcdn.com/eg.svg" alt="مصر" title="مصر" className="w-6 h-4 ml-1 rounded-sm shadow-sm" />
               </div>
               <span className="text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
                 للملفات الذكية

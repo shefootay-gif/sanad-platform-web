@@ -67,7 +67,10 @@ export default function ToolTemplate({
       const formData = new FormData();
       formData.append('file', file);
       
-      const response = await fetch(apiEndpoint, {
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const fullUrl = `${baseUrl}${apiEndpoint}`;
+      
+      const response = await fetch(fullUrl, {
         method: 'POST',
         body: formData,
       });
