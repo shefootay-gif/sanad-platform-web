@@ -1,0 +1,107 @@
+{
+  "Index": {
+    "title": "Sanad - Smart Document Platform",
+    "description": "Your best, most secure, and fastest platform to process PDF files and documents locally and in the cloud.",
+    "startNow": "Start Now",
+    "exploreTools": "Explore Tools",
+    "toolsTitle": "Everything you need to handle PDF files",
+    "toolsSubtitle": "A comprehensive suite of tools to manage, edit, and convert your PDF files easily and securely.",
+    
+    "categories": {
+      "organize": "Organize PDF",
+      "optimize": "Optimize PDF",
+      "convertTo": "Convert to PDF",
+      "convertFrom": "Convert from PDF",
+      "edit": "Edit PDF",
+      "security": "PDF Security"
+    },
+
+    "tools": {
+      "merge": "Merge PDF",
+      "mergeDesc": "Combine multiple PDFs into one unified document easily.",
+      "split": "Split PDF",
+      "splitDesc": "Separate one page or a whole set for easy conversion into independent PDF files.",
+      "removePages": "Remove pages",
+      "removePagesDesc": "Remove pages from a PDF document.",
+      "extractPages": "Extract pages",
+      "extractPagesDesc": "Get a new document containing only the desired pages.",
+      "organizePdf": "Organize PDF",
+      "organizePdfDesc": "Sort pages of your PDF file however you like.",
+
+      "compress": "Compress PDF",
+      "compressDesc": "Reduce file size while optimizing for maximal PDF quality.",
+      "repair": "Repair PDF",
+      "repairDesc": "Recover data from a corrupted or damaged PDF document.",
+
+      "jpgToPdf": "JPG to PDF",
+      "jpgToPdfDesc": "Convert JPG images to PDF in seconds.",
+      "wordToPdf": "WORD to PDF",
+      "wordToPdfDesc": "Make DOC and DOCX files easy to read by converting them to PDF.",
+      "powerpointToPdf": "POWERPOINT to PDF",
+      "powerpointToPdfDesc": "Make PPT and PPTX slideshows easy to view by converting them to PDF.",
+      "excelToPdf": "EXCEL to PDF",
+      "excelToPdfDesc": "Make EXCEL spreadsheets easy to read by converting them to PDF.",
+      "htmlToPdf": "HTML to PDF",
+      "htmlToPdfDesc": "Convert webpages in HTML to PDF.",
+
+      "pdfToJpg": "PDF to JPG",
+      "pdfToJpgDesc": "Extract all images contained in a PDF or convert each page to a JPG.",
+      "pdfToWord": "PDF to WORD",
+      "pdfToWordDesc": "Easily convert your PDF files into easy to edit DOC and DOCX documents.",
+      "pdfToPowerpoint": "PDF to POWERPOINT",
+      "pdfToPowerpointDesc": "Turn your PDF files into easy to edit PPT and PPTX slideshows.",
+      "pdfToExcel": "PDF to EXCEL",
+      "pdfToExcelDesc": "Pull data straight from PDFs into EXCEL spreadsheets.",
+      "pdfToPdfA": "PDF to PDF/A",
+      "pdfToPdfADesc": "Transform your PDF to PDF/A, the ISO-standardized version of PDF for long-term archiving.",
+
+      "rotatePdf": "Rotate PDF",
+      "rotatePdfDesc": "Rotate your PDFs the way you need them.",
+      "addWatermark": "Add watermark",
+      "addWatermarkDesc": "Stamp an image or text over your PDF in seconds.",
+      "addPageNumbers": "Add page numbers",
+      "addPageNumbersDesc": "Add page numbers into PDFs with ease.",
+
+      "unlockPdf": "Unlock PDF",
+      "unlockPdfDesc": "Remove PDF password security, giving you the freedom to use your PDFs as you want.",
+      "protectPdf": "Protect PDF",
+      "protectPdfDesc": "Encrypt your PDF with a password to keep sensitive data confidential.",
+      "signPdf": "Sign PDF",
+      "signPdfDesc": "Add your own electronic signature to your PDF document."
+    }
+  },
+  "Auth": {
+    "loginTitle": "Log in to your account",
+    "loginOr": "Or",
+    "loginCreateAccount": "create a new account for free",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "loginButton": "Log in",
+    "loginWith": "Or continue with",
+    "loginGoogle": "Google",
+    "loginMicrosoft": "Microsoft",
+    "backToHome": "← Back to home",
+    "registerTitle": "Create a new account",
+    "registerAlreadyHaveAccount": "Already have an account?",
+    "registerLogin": "Log in",
+    "fullNameLabel": "Full name",
+    "registerButton": "Create account"
+  },
+  "Navigation": {
+    "home": "Home",
+    "tools": "All Tools",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "login": "Log in",
+    "signup": "Sign up"
+  },
+  "Footer": {
+    "rights": "All rights reserved Sanad Platform",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "about": "About Us"
+  }
+}
