@@ -67,7 +67,7 @@ export default function ToolTemplate({
       const formData = new FormData();
       formData.append('file', file);
       
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL && !process.env.NEXT_PUBLIC_API_URL.includes('render.com') ? process.env.NEXT_PUBLIC_API_URL : 'https://sherifcomb-sanad-api.hf.space';
       const fullUrl = `${baseUrl}${apiEndpoint}`;
       
       const response = await fetch(fullUrl, {
